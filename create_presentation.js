@@ -14,13 +14,19 @@ async function createPresentation() {
 
         // Process each slide
         const slides = [
-            'slides/slide1.html',  // Title slide
-            'slides/slide2.html',  // Market context
-            'slides/slide3.html',  // Magazine concept
-            'slides/slide4.html',  // Issue structure
-            'slides/slide5.html',  // Editorial team
-            'slides/slide6.html',  // Project economics
-            'slides/slide7.html'   // Partnership conclusion
+            'slides/slide1.html',                      // Title slide
+            'slides/slide2a_visual_references.html',   // Visual references (NEW)
+            'slides/slide2b_b2b_history.html',         // B2B media history (NEW)
+            'slides/slide2c_why_now.html',             // Why now? (NEW - divider)
+            'slides/slide2.html',                      // Market context
+            'slides/slide3.html',                      // Magazine concept
+            'slides/slide3a_design_style.html',        // Design & style (NEW - divider)
+            'slides/slide3b_layout_examples.html',     // Layout examples (NEW)
+            'slides/slide4a_how_it_works.html',        // How it works? (NEW - divider)
+            'slides/slide4.html',                      // Issue structure
+            'slides/slide5.html',                      // Editorial team
+            'slides/slide6.html',                      // Project economics
+            'slides/slide7.html'                       // Partnership conclusion
         ];
 
         for (let i = 0; i < slides.length; i++) {

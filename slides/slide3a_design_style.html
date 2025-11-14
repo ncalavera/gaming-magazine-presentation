@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: linear-gradient(135deg, #5EA8A7 0%, #277884 100%);
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.content {
+  text-align: center;
+  padding: 40pt;
+  max-width: 640pt;
+}
+.small-title {
+  font-size: 18pt;
+  font-weight: normal;
+  margin: 0 0 15pt 0;
+  opacity: 0.9;
+  text-transform: uppercase;
+  letter-spacing: 3pt;
+}
+h1 {
+  font-size: 56pt;
+  font-weight: bold;
+  margin: 0 0 30pt 0;
+  line-height: 1.1;
+  text-shadow: 2pt 2pt 4pt rgba(0,0,0,0.2);
+}
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15pt;
+  margin-top: 20pt;
+}
+.feature-card {
+  background: rgba(255,255,255,0.15);
+  padding: 15pt;
+  border-radius: 10pt;
+  border: 2pt solid rgba(255,255,255,0.3);
+  backdrop-filter: blur(10px);
+}
+.feature-icon {
+  font-size: 32pt;
+  margin-bottom: 8pt;
+}
+.feature-title {
+  font-size: 14pt;
+  font-weight: bold;
+  margin: 0 0 6pt 0;
+}
+.feature-desc {
+  font-size: 11pt;
+  margin: 0;
+  opacity: 0.95;
+  line-height: 1.3;
+}
+</style>
+</head>
+<body>
+<div class="content">
+  <p class="small-title">Ключевая фишка</p>
+  <h1>ДИЗАЙН И СТИЛЬ</h1>
+
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon">🎨</div>
+      <p class="feature-title">Яркая верстка</p>
+      <p class="feature-desc">Вдохновлена игровыми журналами начала 2010-х</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon">📖</div>
+      <p class="feature-title">Удобство чтения</p>
+      <p class="feature-desc">Продуманная типографика и структура</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon">✨</div>
+      <p class="feature-title">Визуальная эстетика</p>
+      <p class="feature-desc">Красивые развороты и иллюстрации</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon">🏆</div>
+      <p class="feature-title">Премиум-качество</p>
+      <p class="feature-desc">Как в золотую эру печатных изданий</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

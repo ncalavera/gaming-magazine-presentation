@@ -1,0 +1,9 @@
+# Dependencies
+node_modules/
+
+# Playwright browsers
+.local-browsers/
+
+# Temporary files
+*.tmp
+.DS_Store
