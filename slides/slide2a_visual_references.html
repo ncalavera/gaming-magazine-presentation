@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+.header {
+  width: 100%;
+  height: 80pt;
+  background: #5EA8A7;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 40pt;
+  position: absolute;
+  top: 0;
+}
+.content {
+  margin-top: 80pt;
+  padding: 15pt 40pt 50pt 40pt;
+  color: #333333;
+  width: 640pt;
+}
+h1 {
+  font-size: 36pt;
+  font-weight: bold;
+  margin: 0;
+}
+.intro-text {
+  font-size: 14pt;
+  color: #277884;
+  margin: 10pt 0 15pt 0;
+  text-align: center;
+  font-weight: bold;
+}
+.magazines-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15pt;
+  margin-top: 10pt;
+}
+.magazine-card {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 8pt;
+  padding: 12pt;
+  border: 3pt solid #5EA8A7;
+  box-shadow: 0 4pt 8pt rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.magazine-placeholder {
+  width: 100%;
+  height: 120pt;
+  background: linear-gradient(145deg, #277884 0%, #5EA8A7 100%);
+  border-radius: 6pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8pt;
+  box-shadow: inset 0 2pt 4pt rgba(0,0,0,0.2);
+}
+.magazine-icon {
+  font-size: 48pt;
+  color: white;
+  opacity: 0.7;
+}
+.magazine-name {
+  font-size: 14pt;
+  font-weight: bold;
+  color: #277884;
+  margin: 5pt 0 3pt 0;
+  text-align: center;
+}
+.magazine-period {
+  font-size: 9pt;
+  color: #666666;
+  font-style: italic;
+  text-align: center;
+}
+.note {
+  margin-top: 12pt;
+  padding: 10pt;
+  background: #FFF3CD;
+  border-left: 4pt solid #FE4447;
+  border-radius: 0 6pt 6pt 0;
+  font-size: 11pt;
+  color: #856404;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Визуальные референсы</h1>
+</div>
+<div class="content">
+  <p class="intro-text">Золотая эра российских игровых журналов — вдохновение для нового издания</p>
+
+  <div class="magazines-grid">
+    <div class="magazine-card">
+      <div class="magazine-placeholder">
+        <div class="magazine-icon">🎮</div>
+      </div>
+      <p class="magazine-name">Игромания</p>
+      <p class="magazine-period">2008-2013 гг.<br>Пик формы печатной журналистики</p>
+    </div>
+
+    <div class="magazine-card">
+      <div class="magazine-placeholder">
+        <div class="magazine-icon">🗺️</div>
+      </div>
+      <p class="magazine-name">Навигатор игрового мира</p>
+      <p class="magazine-period">2004-2011 гг.<br>Глубокие обзоры и аналитика</p>
+    </div>
+
+    <div class="magazine-card">
+      <div class="magazine-placeholder">
+        <div class="magazine-icon">🏆</div>
+      </div>
+      <p class="magazine-name">Страна Игр</p>
+      <p class="magazine-period">1996-2015 гг.<br>Яркая верстка и дизайн</p>
+    </div>
+  </div>
+
+  <div class="note">
+    <b>Ключевая идея:</b> Взять лучшее от классики — яркую верстку, глубину материалов, качественный дизайн — и перенести в В2В формат для индустрии
+  </div>
+</div>
+</body>
+</html>

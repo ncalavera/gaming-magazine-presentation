@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+.header {
+  width: 100%;
+  height: 80pt;
+  background: #277884;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 40pt;
+  position: absolute;
+  top: 0;
+}
+.content {
+  margin-top: 80pt;
+  padding: 15pt 40pt 50pt 40pt;
+  color: #333333;
+  width: 640pt;
+}
+h1 {
+  font-size: 36pt;
+  font-weight: bold;
+  margin: 0;
+}
+.intro-text {
+  font-size: 13pt;
+  color: #277884;
+  margin: 10pt 0 15pt 0;
+  text-align: center;
+  font-style: italic;
+}
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 12pt;
+  margin-top: 10pt;
+}
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15pt;
+}
+.timeline-marker {
+  flex-shrink: 0;
+  width: 60pt;
+  height: 60pt;
+  background: linear-gradient(135deg, #5EA8A7 0%, #277884 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 32pt;
+  box-shadow: 0 3pt 6pt rgba(0,0,0,0.2);
+}
+.timeline-content {
+  flex: 1;
+  background: #f8f9fa;
+  padding: 12pt;
+  border-radius: 8pt;
+  border-left: 4pt solid #FE4447;
+}
+.platform-name {
+  font-size: 16pt;
+  font-weight: bold;
+  color: #277884;
+  margin: 0 0 5pt 0;
+}
+.platform-description {
+  font-size: 11pt;
+  line-height: 1.4;
+  margin: 5pt 0;
+  color: #333333;
+}
+.platform-status {
+  font-size: 10pt;
+  font-weight: bold;
+  margin-top: 5pt;
+  padding: 4pt 8pt;
+  background: white;
+  border-radius: 4pt;
+  display: inline-block;
+}
+.status-negative {
+  color: #dc3545;
+  border: 1pt solid #dc3545;
+}
+.status-positive {
+  color: #28a745;
+  border: 1pt solid #28a745;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Эволюция В2В медиа</h1>
+</div>
+<div class="content">
+  <p class="intro-text">История попыток создать профессиональное сообщество</p>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-marker">📱</div>
+      <div class="timeline-content">
+        <p class="platform-name">DTF (DevToFun)</p>
+        <p class="platform-description">
+          Начинался как платформа для разработчиков игр, где они могли делиться опытом и находками.
+          Постепенно превратился в В2С площадку с потерей фокуса на профессиональном сообществе.
+        </p>
+        <span class="platform-status status-negative">⚠️ Утратил роль В2В платформы</span>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-marker">📊</div>
+      <div class="timeline-content">
+        <p class="platform-name">App2Top</p>
+        <p class="platform-description">
+          Долгое время был единственным В2В медиа. Куплен компанией Playrix.
+          В 2024 выпустили бумажный альманах игровой индустрии — показал огромный спрос на качественный печатный контент.
+        </p>
+        <span class="platform-status status-positive">✓ Альманах 2024 — успех</span>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

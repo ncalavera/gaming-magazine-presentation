@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: linear-gradient(135deg, #277884 0%, #1a5a64 100%);
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.content {
+  text-align: center;
+  padding: 40pt;
+  max-width: 600pt;
+}
+.small-title {
+  font-size: 18pt;
+  font-weight: normal;
+  margin: 0 0 15pt 0;
+  opacity: 0.9;
+  text-transform: uppercase;
+  letter-spacing: 3pt;
+}
+h1 {
+  font-size: 56pt;
+  font-weight: bold;
+  margin: 0 0 30pt 0;
+  line-height: 1.1;
+  text-shadow: 2pt 2pt 4pt rgba(0,0,0,0.2);
+}
+.workflow-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10pt;
+  margin-top: 20pt;
+}
+.workflow-item {
+  background: rgba(255,255,255,0.15);
+  padding: 12pt 20pt;
+  border-radius: 8pt;
+  border-left: 4pt solid #5EA8A7;
+  text-align: left;
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  gap: 15pt;
+}
+.workflow-number {
+  font-size: 24pt;
+  font-weight: bold;
+  color: #FE4447;
+  min-width: 40pt;
+}
+.workflow-text {
+  font-size: 13pt;
+  margin: 0;
+  line-height: 1.3;
+  font-weight: 500;
+}
+</style>
+</head>
+<body>
+<div class="content">
+  <p class="small-title">Производственный цикл</p>
+  <h1>КАК ЭТО РАБОТАЕТ?</h1>
+
+  <div class="workflow-list">
+    <div class="workflow-item">
+      <div class="workflow-number">1</div>
+      <p class="workflow-text">Выбор главной темы месяца на основе ключевых событий индустрии</p>
+    </div>
+
+    <div class="workflow-item">
+      <div class="workflow-number">2</div>
+      <p class="workflow-text">Работа с индустриальными экспертами и special guests</p>
+    </div>
+
+    <div class="workflow-item">
+      <div class="workflow-number">3</div>
+      <p class="workflow-text">Редактура, верстка в стиле игровых журналов 2010-х</p>
+    </div>
+
+    <div class="workflow-item">
+      <div class="workflow-number">4</div>
+      <p class="workflow-text">Печать 200 экземпляров и распространение среди профессионалов</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
