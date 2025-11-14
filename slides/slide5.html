@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+.header {
+  width: 100%;
+  height: 80pt;
+  background: #277884;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 40pt;
+  position: absolute;
+  top: 0;
+}
+.content {
+  margin-top: 80pt;
+  padding: 5pt 40pt 75pt 40pt;
+  color: #333333;
+  width: 640pt;
+  display: flex;
+  gap: 25pt;
+}
+h1 {
+  font-size: 36pt;
+  font-weight: bold;
+  margin: 0;
+}
+.column {
+  flex: 1;
+}
+.section-title {
+  font-size: 18pt;
+  font-weight: bold;
+  color: #277884;
+  margin: 0 0 10pt 0;
+  text-align: center;
+  padding: 8pt 0;
+}
+.cost-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6pt 10pt;
+  margin: 4pt 0;
+  background: #f8f9fa;
+  border-radius: 4pt;
+  border-left: 3pt solid #5EA8A7;
+}
+.cost-role {
+  font-size: 11pt;
+  font-weight: bold;
+  color: #333333;
+  flex: 1;
+}
+.cost-name {
+  font-size: 9pt;
+  color: #666666;
+  font-style: italic;
+  margin-top: 1pt;
+}
+.cost-amount {
+  font-size: 11pt;
+  font-weight: bold;
+  color: #FE4447;
+  margin-left: 8pt;
+}
+.total-box {
+  background: #FE4447;
+  color: white;
+  padding: 8pt;
+  border-radius: 6pt;
+  text-align: center;
+  margin-top: 5pt;
+}
+.total-text {
+  font-size: 12pt;
+  font-weight: bold;
+  margin: 0;
+}
+.variable-note {
+  font-size: 9pt;
+  color: #666666;
+  margin-top: 5pt;
+  line-height: 1.3;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Редакционный состав</h1>
+</div>
+<div class="content">
+  <div class="column">
+    <p class="section-title">Постоянные расходы</p>
+
+    <div class="cost-item">
+      <div>
+        <p class="cost-role">Главред, ПМ, биздев</p>
+        <p class="cost-name">(Влад, Дима и автор)</p>
+      </div>
+      <p class="cost-amount">3,000 EUR</p>
+    </div>
+
+    <div class="cost-item">
+      <div>
+        <p class="cost-role">Выпускающий редактор</p>
+        <p class="cost-name">(Петр)</p>
+      </div>
+      <p class="cost-amount">130,000 ₽</p>
+    </div>
+
+    <div class="cost-item">
+      <div>
+        <p class="cost-role">Линейный редактор</p>
+        <p class="cost-name">(вторая пара рук у Петра)</p>
+      </div>
+      <p class="cost-amount">100,000 ₽</p>
+    </div>
+
+    <div class="cost-item">
+      <div>
+        <p class="cost-role">Корректор</p>
+        <p class="cost-name">(Света)</p>
+      </div>
+      <p class="cost-amount">85,000 ₽</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <p class="section-title">Переменные расходы</p>
+
+    <div class="cost-item">
+      <div>
+        <p class="cost-role">Авторы-фрилансеры</p>
+        <p class="cost-name">1 ₽ за знак + спешиалы х2-х3</p>
+      </div>
+      <p class="cost-amount">100,000 ₽</p>
+    </div>
+
+    <p class="variable-note">
+      <b>Спешиалы:</b> Логвинов, Подшибякин, Врен и другие «старые голоса» — по х2-х3 цене от базового тарифа.
+    </p>
+
+    <div class="total-box">
+      <p class="total-text">Итого редакционные расходы:<br>415,000 ₽ + 3,000 EUR в месяц NET</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

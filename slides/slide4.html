@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+.header {
+  width: 100%;
+  height: 80pt;
+  background: #FE4447;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 40pt;
+  position: absolute;
+  top: 0;
+}
+.content {
+  margin-top: 80pt;
+  padding: 15pt 40pt 50pt 40pt;
+  color: #333333;
+  width: 640pt;
+  display: flex;
+  flex-direction: column;
+  gap: 12pt;
+}
+h1 {
+  font-size: 36pt;
+  font-weight: bold;
+  margin: 0;
+}
+.summary {
+  background: #277884;
+  color: white;
+  padding: 12pt;
+  border-radius: 8pt;
+  text-align: center;
+  margin-bottom: 5pt;
+}
+.summary-text {
+  font-size: 14pt;
+  font-weight: bold;
+  margin: 0;
+}
+.sections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8pt;
+}
+.section {
+  flex: 1;
+  min-width: 140pt;
+  padding: 10pt;
+  background: #f8f9fa;
+  border-radius: 6pt;
+  border-top: 3pt solid #5EA8A7;
+}
+.section-title {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #277884;
+  margin: 0 0 5pt 0;
+}
+.section-details {
+  font-size: 10pt;
+  line-height: 1.3;
+  color: #555555;
+  margin: 0;
+}
+.highlight {
+  color: #FE4447;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Структура выпуска</h1>
+</div>
+<div class="content">
+  <div class="summary">
+    <p class="summary-text">~40 тысяч знаков «чистого» текста на выпуск (30 страниц журнала)</p>
+  </div>
+
+  <div class="sections">
+    <div class="section">
+      <p class="section-title">Новости</p>
+      <p class="section-details">2 разворота<br><span class="highlight">≈ 4 страницы → ~8 тыс. знаков</span></p>
+    </div>
+
+    <div class="section">
+      <p class="section-title">Главная тема</p>
+      <p class="section-details">3–4 лонгрида по развороту каждый<br><span class="highlight">→ ~16 тыс. знаков</span></p>
+    </div>
+
+    <div class="section">
+      <p class="section-title">Интервью</p>
+      <p class="section-details">1–2 интервью по 2 страницы<br><span class="highlight">→ ~8 тыс. знаков</span></p>
+    </div>
+
+    <div class="section">
+      <p class="section-title">Дополнительные темы</p>
+      <p class="section-details">Ещё 2 разворота<br><span class="highlight">→ ~8 тыс. знаков</span></p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

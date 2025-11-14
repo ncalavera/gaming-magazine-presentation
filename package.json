@@ -1,0 +1,14 @@
+{
+  "name": "gaming-magazine-presentation",
+  "version": "1.0.0",
+  "description": "Gaming magazine presentation creator",
+  "main": "create_presentation.js",
+  "scripts": {
+    "create": "node create_presentation.js"
+  },
+  "dependencies": {
+    "pptxgenjs": "^3.12.0",
+    "playwright": "^1.56.0",
+    "sharp": "^0.34.4"
+  }
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+.header {
+  width: 100%;
+  height: 80pt;
+  background: #5EA8A7;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 40pt;
+  position: absolute;
+  top: 0;
+}
+.content {
+  margin-top: 80pt;
+  padding: 2pt 40pt 78pt 40pt;
+  color: #333333;
+  width: 640pt;
+}
+h1 {
+  font-size: 36pt;
+  font-weight: bold;
+  margin: 0;
+}
+.calculation-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8pt 15pt;
+  margin: 5pt 0;
+  background: #f8f9fa;
+  border-radius: 6pt;
+  border-left: 3pt solid #277884;
+}
+.calc-label {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #333333;
+  flex: 1;
+  margin: 0;
+}
+.calc-detail {
+  font-size: 9pt;
+  color: #666666;
+  margin: 2pt 0 0 0;
+}
+.calc-amount {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #FE4447;
+  text-align: right;
+  margin: 0;
+}
+.total-section {
+  background: #277884;
+  color: white;
+  padding: 12pt;
+  border-radius: 8pt;
+  margin: 10pt 0;
+  text-align: center;
+}
+.total-title {
+  font-size: 14pt;
+  font-weight: bold;
+  margin: 0 0 8pt 0;
+}
+.total-numbers {
+  display: flex;
+  justify-content: space-around;
+  gap: 15pt;
+}
+.total-item {
+  text-align: center;
+}
+.total-label {
+  font-size: 10pt;
+  opacity: 0.9;
+  margin: 0 0 3pt 0;
+}
+.total-value {
+  font-size: 14pt;
+  font-weight: bold;
+  margin: 0;
+}
+.margin-section {
+  background: #FE4447;
+  color: white;
+  padding: 12pt;
+  border-radius: 8pt;
+  text-align: center;
+}
+.margin-title {
+  font-size: 14pt;
+  font-weight: bold;
+  margin: 0 0 5pt 0;
+}
+.margin-detail {
+  font-size: 12pt;
+  margin: 3pt 0;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Экономика проекта</h1>
+</div>
+<div class="content">
+  <div class="calculation-row">
+    <div>
+      <p class="calc-label">ФОТ редакции</p>
+      <p class="calc-detail">По предварительным прикидкам</p>
+    </div>
+    <p class="calc-amount">150-200 тыс ₽</p>
+  </div>
+
+  <div class="calculation-row">
+    <div>
+      <p class="calc-label">Печать</p>
+      <p class="calc-detail">200 экземпляров по 40 стр</p>
+    </div>
+    <p class="calc-amount">71 тыс ₽</p>
+  </div>
+
+  <div class="calculation-row">
+    <div>
+      <p class="calc-label">Дизайн</p>
+      <p class="calc-detail">Верстка одного выпуска</p>
+    </div>
+    <p class="calc-amount">70 тыс ₽</p>
+  </div>
+
+  <div class="total-section">
+    <p class="total-title">Себестоимость (без маржи)</p>
+    <div class="total-numbers">
+      <div class="total-item">
+        <p class="total-label">За выпуск</p>
+        <p class="total-value">290-350 тыс ₽</p>
+      </div>
+      <div class="total-item">
+        <p class="total-label">В год</p>
+        <p class="total-value">3.5-4.2 млн ₽</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="margin-section">
+    <p class="margin-title">С маржей 20%</p>
+    <p class="margin-detail">350-420 тыс ₽ за выпуск</p>
+    <p class="margin-detail"><b>4.2-5 млн ₽ в год</b></p>
+  </div>
+</div>
+</body>
+</html>
